@@ -1,0 +1,40 @@
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# macOS
+.DS_Store
+
+# Private configuration, credentials and signing material
+.env
+.env.*
+!.env.example
+*.p12
+*.p8
+*.key
+*.mobileprovision
+*.provisionprofile
+*.cer
+.dev-credentials*
+
+# Personal application data, exports and local builds
+*.db
+*.db-*
+*.sqlite*
+*.store*
+*.xcresult
+*.app/
+*.dmg
+*.zip
+release/
+
+# Local working notes (not part of the public project)
+CONTEXT.md
+STAND.md
